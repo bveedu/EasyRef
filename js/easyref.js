@@ -10,31 +10,29 @@
 				            $('#box').hide();
 				        });
 			    });
+				var availableTags = [
+				"Computer Science",
+				"General",
+				"Mathematics",
+				"Programming",
+				"C",
+				"C++",
+				"Clojure",
+				"Erlang",
+				"Fortran",
+				"Groovy",
+				"Haskell",
+				"Java",
+				"JavaScript",
+				"Lisp",
+				"Perl",
+				"PHP",
+				"Python",
+				"Ruby",
+				"Scala"
+				];
+				$( "#tags" ).autocomplete({
+					source: availableTags
+				});
 
-			});
-	   $(function() {
-		var availableTags = [
-			"Computer Science",
-			"General",
-			"Mathematics",
-			"Programming",
-			"C",
-			"C++",
-			"Clojure",
-			"Erlang",
-			"Fortran",
-			"Groovy",
-			"Haskell",
-			"Java",
-			"JavaScript",
-			"Lisp",
-			"Perl",
-			"PHP",
-			"Python",
-			"Ruby",
-			"Scala"
-		];
-		$( "#tags" ).autocomplete({
-			source: availableTags
 		});
-	});
