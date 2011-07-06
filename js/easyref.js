@@ -34,5 +34,4 @@
 				$( "#tags" ).autocomplete({
 					source: availableTags
 				});
-		
 		});

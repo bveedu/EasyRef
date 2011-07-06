@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Galleria Classic Theme</title>
+
+        <!-- load jQuery -->
+    	<script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
+        
+        <!-- load Galleria -->
+        <script src="galleria/galleria-1.2.4.min.js"></script>
+
+    </head>
+<body>
+    <div class="tabs-2">
+        
+        <div id="gallery">
+            <a href="images/gallery/1.jpg">
+            	<img title="Picture 1"
+            	     alt="Picture" 
+            	     src="images/gallery/1.jpg"/>
+        	</a>
+            <a href="images/gallery/2.jpg">
+            	<img title="Picture 1"
+            	     alt="Picture" 
+            	     src="images/gallery/2.jpg"/>
+        	</a>
+			 <a href="images/gallery/3.jpg">
+            	<img title="Picture 1"
+            	     alt="Picture" 
+            	     src="images/gallery/3.jpg"/>
+        	</a>
+			<a href="images/gallery/4.jpg">
+            	<img title="Picture 1"
+            	     alt="Picture" 
+            	     src="images/gallery/5.jpg"/>
+        	</a>
+        </div>
+
+    </div>
+    
+    <script>
+    // Load the classic theme
+    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+    
+    $('#gallery').galleria({
+        width:500,
+        height:500
+    });
+    </script>
+    </body>
+</html>
